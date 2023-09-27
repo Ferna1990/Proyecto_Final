@@ -131,14 +131,20 @@ body{
     display: flex;
     width: 100%;
     height: 1rem;
-    padding: 4px;
+    padding: 2px;
+    margin: 4px;
+ }
+ .cont2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
  }
  .cont3{
     display: flex;
     width: 30%;
  }
  .box1{
-    width: 4rem;
+    width: 25%;
     height: 2rem;
     padding: 3px;
 
@@ -148,10 +154,16 @@ body{
     height: 2rem;
     padding: 3px;
  }
+ .box2{
+    width: 45%;
+ }
  .box3{
     width: 100%;
     margin: 5px;
     
+ }
+ .imagen1{
+    width: 90%;
  }
  .imagen2{
     width: 13rem;
@@ -161,4 +173,11 @@ body{
  .mapa1, .mapa2{
     display: none;
  } 
+ .texto2{
+    margin: 4%;
+ }
+ .text5{
+    margin-left: 2%;
+    padding-left: 4%;
+ }
 }
