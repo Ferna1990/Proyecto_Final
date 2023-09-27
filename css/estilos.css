@@ -156,6 +156,7 @@ body{
  }
  .box2{
     width: 45%;
+    padding-left: 4%;
  }
  .box3{
     width: 100%;
@@ -164,6 +165,7 @@ body{
  }
  .imagen1{
     width: 90%;
+    padding-left: 5%;
  }
  .imagen2{
     width: 13rem;
@@ -175,6 +177,9 @@ body{
  } 
  .texto2{
     margin: 4%;
+ }
+ .text4{
+    padding-left: 5%;
  }
  .text5{
     margin-left: 2%;
