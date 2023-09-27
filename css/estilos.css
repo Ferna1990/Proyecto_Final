@@ -88,11 +88,22 @@ body{
 .cont1{
     width: 100%;
 }
-   .box1{
+.cont2{
+    width: 90%;
+    
+}
+.box1{
     float: left;
    }
+.box2{
+    width: 14rem;
+}
 .mapa1, .mapa3{
     display: none;
+}
+.imagen1{
+    width: 8rem;
+    padding: 1rem;
 }
 .imagen2{
     width: 14rem;
