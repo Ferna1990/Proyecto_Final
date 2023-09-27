@@ -14,6 +14,7 @@ body{
         background-attachment: fixed;
     }
     .cont1{
+        width: 100%;
         display: flex;
         margin: 3px;
         padding: 1px;
@@ -49,12 +50,13 @@ body{
     }
     .box2{
         background-color: transparent;
-        width: 6rem;
+        width: 8rem;
         height: 7rem;
         padding: 4%;
         margin: 6%;
-     
-        right: 50%;
+        margin-left: 18%;
+        padding-left: 10%;
+       
       
     }
     .imagen1{
@@ -89,14 +91,21 @@ body{
     width: 100%;
 }
 .cont2{
-    width: 90%;
+    width: 100%;
     
 }
 .box1{
-    float: left;
+    float: right;
+    width: 25%;
    }
+.box1b{
+     width: 25%;
+}
 .box2{
-    width: 14rem;
+    width: 13rem;
+    margin-left: 20px;
+    padding-left: 3%;
+    
 }
 .mapa1, .mapa3{
     display: none;
@@ -104,6 +113,7 @@ body{
 .imagen1{
     width: 8rem;
     padding: 1rem;
+    padding-left: 2rem;
 }
 .imagen2{
     width: 14rem;
