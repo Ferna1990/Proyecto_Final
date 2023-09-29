@@ -58,9 +58,11 @@ body{
     .text4{
         width: 100%;
         position: relative;
-        padding-left: 25%;
+        padding-left: 5%;
         padding-right: 5%;
         right: 10%;
+        text-align: center;
+        margin-bottom: 10%;
         
     }
     .imagen1{
