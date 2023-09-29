@@ -34,9 +34,9 @@ body{
         height: 3rem;
     }
    .text5{
-    margin-top: 16px;
-    left: 8%; 
-    padding-left: 2%; 
+    
+    margin-top: 16px; 
+    padding-left: 4%; 
    }
  
 
@@ -93,6 +93,9 @@ body{
 }
 .cont2{
     width: 100%;
+    position: relative;
+    right: 4%;
+    margin-right: 5%;
     
 }
 .box1{
@@ -103,15 +106,29 @@ body{
      width: 25%;
 }
 .box2{
+    position: relative;
     width: 13rem;
     margin-left: 20px;
     padding-left: 3%;
+    left: 6%;
+    
+}
+.text4{
+    position: relative;
+    padding-left: 15%;
+    left: 5%;
+}
+.text5{
+    position: relative;
+    padding-left: 5%;
     
 }
 .mapa1, .mapa3{
     display: none;
 }
 .imagen1{
+    position: relative;
+    left: 6%;
     width: 8rem;
     padding: 1rem;
     padding-left: 2rem;
