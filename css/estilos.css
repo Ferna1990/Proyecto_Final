@@ -12,10 +12,14 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        background-position: center;
+   
     }
     .cont1{
+    
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         margin: 3px;
         padding: 1px;
         padding-top: 4px;
@@ -23,6 +27,7 @@ body{
         
     }
     .cont2{
+        position: relative;
         display: flex;
         flex-direction: column;
         margin: 2px;
@@ -36,28 +41,34 @@ body{
    .text5{
     
     margin-top: 16px; 
-    padding-left: 4%; 
+    padding-left: 4%;
+    padding-right: 3%; 
    }
  
 
     .box2{
         background-color: transparent;
-        width: 45%;
-        height: 7rem;
+        width: 50%;
+        height: 10rem;
         padding: 4%;
         margin: 6%;
         margin-left: 18%;
         padding-left: 10%;    
     }
     .text4{
+        width: 100%;
         position: relative;
-        padding-left: 10%;
+        padding-left: 25%;
+        padding-right: 5%;
+        right: 10%;
         
     }
     .imagen1{
         position: relative;
         width: 7rem;
-        left: 12%;
+        left: 6%;
+        padding: 3%;
+        top: 1rem;
     }
     .mapa2, .mapa3{
         display: none;
@@ -76,26 +87,27 @@ body{
         padding-left: 5%;
     }
     }
-@media only screen and (min-width: 420px) and (max-width: 700px) {
+@media only screen and (min-width: 420px) and (max-width: 655px) {
   body{
     background: url(../Imagenes/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
-  .cont1, .cont2{
-    display: flex;
-   
-    flex-wrap: wrap;
+.cont1, .cont2{
+    display: flex;   
 }
 .cont1{
     width: 100%;
+    flex-wrap: wrap;
 }
 .cont2{
+
     width: 100%;
     position: relative;
     right: 4%;
     margin-right: 5%;
+    flex-flow: row wrap;
     
 }
 .box1{
@@ -106,6 +118,7 @@ body{
      width: 25%;
 }
 .box2{
+
     position: relative;
     width: 13rem;
     margin-left: 20px;
@@ -138,7 +151,7 @@ body{
     margin: 5px;
 }
 }
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 655px){
      body{
     background: url(../Imagenes/fondo1.jpg);
     background-repeat: no-repeat;
