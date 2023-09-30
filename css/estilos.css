@@ -54,13 +54,13 @@ body{
         padding-left: 10%;    
     }
     .text4{
-        width: 100%;
+        width: 130%;
         position: relative;
         padding-left: 5%;
         padding-right: 5%;
         right: 13%;
         text-align: center;
-        margin-bottom: 10;
+        margin-bottom: 10%;
         
     }
     .imagen1{
@@ -69,6 +69,7 @@ body{
         left: 6%;
         padding: 3%;
         top: 1rem;
+        text-align: center;
     }
     .mapa2, .mapa3{
         display: none;
@@ -143,7 +144,6 @@ body{
 }
 .text4{
     position: relative;
-    padding-left: 15%;
     left: 5%;
     text-align: center;
 }
@@ -166,6 +166,19 @@ body{
     width: 14rem;
     margin: 5px;
 }
+.titulo1{
+    text-align: center;
+ }
+ .Ubicacion{
+    position: relative;
+    left: 5%;
+ }
+ .contacto{
+    text-align: center;
+ }
+ .mensaje{
+    margin-top: 2%;
+ }
 }
 @media only screen and (min-width: 655px){
      body{
@@ -234,5 +247,18 @@ body{
  .text5{
     font-size: large;
     padding-left: 25%;
+ }
+ .titulo1{
+    text-align: center;
+ }
+ .Ubicacion{
+    position: relative;
+    left: 11%;
+ }
+ .contacto{
+    text-align: center;
+ }
+ .mensaje{
+    margin-top: 2%;
  }
 }
