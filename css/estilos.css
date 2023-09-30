@@ -43,14 +43,12 @@ body{
     margin-top: 16px; 
     padding-left: 4%;
     padding-right: 3%; 
-   }
- 
-
+    }
     .box2{
         background-color: transparent;
         width: 50%;
         height: 10rem;
-        padding: 4%;
+        padding: 1%;
         margin: 6%;
         margin-left: 18%;
         padding-left: 10%;    
@@ -60,7 +58,7 @@ body{
         position: relative;
         padding-left: 5%;
         padding-right: 5%;
-        right: 10%;
+        right: 13%;
         text-align: center;
         margin-bottom: 10;
         
@@ -78,8 +76,7 @@ body{
     .box3{
         margin: 10px;
     }
-    
-    .imagen2{
+        .imagen2{
         width: 10rem;
         margin-bottom: 2px;
         margin-top: -4px;
@@ -88,6 +85,22 @@ body{
         position: relative;
         padding-left: 5%;
     }
+    .contacto  {
+        position: relative;
+        left: 25%;
+    }
+    .titulo1{
+        text-align: center;
+    }
+    .mensaje{
+        position: relative;
+        right: 14%;
+        padding: 5%;
+    }
+    .enviarreset{
+        position: relative;
+        left: 5%;
+    }      
     }
 @media only screen and (min-width: 420px) and (max-width: 655px) {
   body{
@@ -179,10 +192,8 @@ body{
     width: 30%;
  }
  .box1{
-    width: 25%;
-    height: 2rem;
-    padding: 3px;
-
+    width: 30%;
+    height: 4rem;
  }
  .box1b{
     width: 8rem;
@@ -190,8 +201,10 @@ body{
     padding: 3px;
  }
  .box2{
-    width: 45%;
-    padding-left: 4%;
+    position: relative;
+    width: 35%;
+    padding-left: 6%;
+    left: 7%;
  }
  .box3{
     width: 100%;
@@ -219,7 +232,7 @@ body{
     font-size: larger;
  }
  .text5{
-    margin-left: 2%;
-    padding-left: 4%;
+    font-size: large;
+    padding-left: 25%;
  }
 }
