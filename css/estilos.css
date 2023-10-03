@@ -21,6 +21,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        background-position: center;
     }
     .header{
         display:flex;
@@ -60,8 +61,10 @@ body{
         color: black;
      }
     .cont1{
+    
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         margin: 3px;
         padding: 1px;
         padding-top: 4px;
@@ -69,44 +72,49 @@ body{
         
     }
     .cont2{
+        position: relative;
         display: flex;
         flex-direction: column;
         margin: 2px;
     }
     .box1{
-        background-color: rgb(81, 72, 18);
+        position: relative;
         opacity: 80%;
-        width: 3.5rem;
+        width: 25%;
         height: 3rem;
-        padding: 5px;
-        margin: 5px;
-        margin-top: 2px;
-        padding-bottom: 4px;
-        margin-bottom: 10px;
     }
-    .box1b{
-        background-color: rgb(81, 72, 18);
-        opacity: 80%;
-        width: 9rem;
-        height: 3rem;
-        padding: 5px;
-        margin: 5px;
-        margin-top: 2px;
-        padding-top: -10px
+   .text5{
+    
+    margin-top: 16px; 
+    padding-left: 4%;
+    padding-right: 3%; 
     }
     .box2{
         background-color: transparent;
-        width: 8rem;
-        height: 7rem;
-        padding: 4%;
+        width: 50%;
+        height: 10rem;
+        padding: 1%;
         margin: 6%;
         margin-left: 18%;
-        padding-left: 10%;
-       
-      
+        padding-left: 10%;    
+    }
+    .text4{
+        width: 130%;
+        position: relative;
+        padding-left: 5%;
+        padding-right: 5%;
+        right: 13%;
+        text-align: center;
+        margin-bottom: 10%;
+        
     }
     .imagen1{
+        position: relative;
         width: 7rem;
+        left: 6%;
+        padding: 3%;
+        top: 1rem;
+        text-align: center;
     }
     .mapa2, .mapa3{
         display: none;
@@ -114,14 +122,33 @@ body{
     .box3{
         margin: 10px;
     }
-    
-    .imagen2{
+        .imagen2{
         width: 10rem;
         margin-bottom: 2px;
         margin-top: -4px;
-    }   
+    }  
+    .footer{
+        position: relative;
+        padding-left: 5%;
     }
-@media only screen and (min-width: 420px) and (max-width: 700px) {
+    .contacto  {
+        position: relative;
+        left: 25%;
+    }
+    .titulo1{
+        text-align: center;
+    }
+    .mensaje{
+        position: relative;
+        right: 14%;
+        padding: 5%;
+    }
+    .enviarreset{
+        position: relative;
+        left: 5%;
+    }      
+    }
+@media only screen and (min-width: 420px) and (max-width: 655px) {
   body{
     background: url(../Imagenes/fondo2.jpg);
     background-repeat: no-repeat;
@@ -172,9 +199,15 @@ body{
 }
 .cont1{
     width: 100%;
+    flex-wrap: wrap;
 }
 .cont2{
+
     width: 100%;
+    position: relative;
+    right: 4%;
+    margin-right: 5%;
+    flex-flow: row wrap;
     
 }
 .box1{
@@ -185,25 +218,53 @@ body{
      width: 25%;
 }
 .box2{
-    width: 13rem;
+
+    position: relative;
+    width: 11rem;
     margin-left: 20px;
     padding-left: 3%;
+    left: 6%;
+    
+}
+.text4{
+    position: relative;
+    left: 5%;
+    text-align: center;
+}
+.text5{
+    position: relative;
+    padding-left: 5%;
     
 }
 .mapa1, .mapa3{
     display: none;
 }
 .imagen1{
+    position: relative;
+    left: 6%;
     width: 8rem;
-    padding: 1rem;
-    padding-left: 2rem;
+    padding: 0.8rem;
+    padding-left: 1.5rem;
 }
 .imagen2{
     width: 14rem;
     margin: 5px;
 }
+.titulo1{
+    text-align: center;
+ }
+ .Ubicacion{
+    position: relative;
+    left: 5%;
+ }
+ .contacto{
+    text-align: center;
+ }
+ .mensaje{
+    margin-top: 2%;
+ }
 }
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 655px){
      body{
     background: url(../Imagenes/fondo1.jpg);
     background-repeat: no-repeat;
@@ -264,10 +325,8 @@ body{
     width: 30%;
  }
  .box1{
-    width: 25%;
-    height: 2rem;
-    padding: 3px;
-
+    width: 30%;
+    height: 4rem;
  }
  .box1b{
     width: 8rem;
@@ -275,8 +334,10 @@ body{
     padding: 3px;
  }
  .box2{
-    width: 45%;
-    padding-left: 4%;
+    position: relative;
+    width: 35%;
+    padding-left: 6%;
+    left: 7%;
  }
  .box3{
     width: 100%;
@@ -300,9 +361,24 @@ body{
  }
  .text4{
     padding-left: 5%;
+    text-align: center;
+    font-size: larger;
  }
  .text5{
-    margin-left: 2%;
-    padding-left: 4%;
+    font-size: large;
+    padding-left: 25%;
+ }
+ .titulo1{
+    text-align: center;
+ }
+ .Ubicacion{
+    position: relative;
+    left: 11%;
+ }
+ .contacto{
+    text-align: center;
+ }
+ .mensaje{
+    margin-top: 2%;
  }
 }
