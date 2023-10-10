@@ -122,10 +122,11 @@ body{
     .box3{
         margin: 10px;
     }
-        .imagen2{
+    .imagen2{
         width: 10rem;
         margin-bottom: 2px;
         margin-top: -4px;
+        padding-left: 10%;
     }  
     .footer{
         position: relative;
@@ -146,7 +147,16 @@ body{
     .enviarreset{
         position: relative;
         left: 5%;
-    }      
+    }   
+    .titulo2{
+        position: relative;
+        text-align: center;
+    } 
+    .descripcion1{
+        position: relative;
+        padding-left: 5%;
+
+    }  
     }
 @media only screen and (min-width: 420px) and (max-width: 655px) {
   body{
@@ -246,9 +256,15 @@ body{
     padding: 0.8rem;
     padding-left: 1.5rem;
 }
+.cont3{
+    display: flex;
+    flex-flow: row wrap;
+}
 .imagen2{
-    width: 14rem;
+    width: 12rem;
     margin: 5px;
+    padding-left: 5%;
+
 }
 .titulo1{
     text-align: center;
@@ -263,6 +279,20 @@ body{
  .mensaje{
     margin-top: 2%;
  }
+ .box3{
+    position: relative;
+    width: 50%;
+
+ }
+ .titulo2{
+    position: relative;
+    text-align: center;
+} 
+.descripcion1{
+    position: relative;
+    padding-left: 5%;
+
+}  
 }
 @media only screen and (min-width: 655px){
      body{
@@ -322,8 +352,7 @@ body{
  }
  .cont3{
     display: flex;
-    width: 30%;
- }
+    }
  .box1{
     width: 30%;
     height: 4rem;
@@ -341,7 +370,7 @@ body{
  }
  .box3{
     width: 100%;
-    margin: 5px;
+    margin: 1px;
     
  }
  .imagen1{
@@ -351,6 +380,7 @@ body{
  .imagen2{
     width: 13rem;
     margin: 5px;
+    padding-left: 3%;
 
  }
  .mapa1, .mapa2{
@@ -371,14 +401,20 @@ body{
  .titulo1{
     text-align: center;
  }
+ .titulo2{
+    padding-left: 5%;
+ }
  .Ubicacion{
     position: relative;
-    left: 11%;
+    text-align: center;
  }
  .contacto{
     text-align: center;
  }
  .mensaje{
     margin-top: 2%;
+ }
+ .descripcion1{
+    padding-left: 3%;
  }
 }
