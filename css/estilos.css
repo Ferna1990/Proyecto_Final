@@ -28,11 +28,12 @@ body{
         background-color: #FDDEA4;
         justify-content: space-between;
         align-items: center;
-        height: 85px;
+        height: 10%;
+        width: 110%;
         padding: 5px .1%;
      }
      .header .logo img{
-        height: 70px;
+        height: 65px;
         width: auto;
         transition: all 0.3s;
      }
@@ -47,8 +48,9 @@ body{
      }
      .header .navlinks li{
         display: inline-block;
-        padding: 0 5px;
+        padding: 1.5%;
         transition: all 0.3s;
+        margin: 1%;
      }
      .header .navlinks li:hover{
         transform: scale(1.1);
@@ -121,8 +123,10 @@ body{
     }
     .box3{
         margin: 10px;
+        height: 90%;
     }
     .imagen2{
+        position: relative;
         width: 10rem;
         margin-bottom: 2px;
         margin-top: -4px;
@@ -149,14 +153,22 @@ body{
         left: 5%;
     }   
     .titulo2{
+        width: 110%;
         position: relative;
+        margin-bottom: 6%;
         text-align: center;
     } 
-    .descripcion1{
+    .descripcion1{ 
+        width: 110%;
         position: relative;
         padding-left: 5%;
+        margin-bottom: 6%;
 
     }  
+    .cont3{
+        position: relative;
+        width: 100%;
+    }
     }
 @media only screen and (min-width: 420px) and (max-width: 655px) {
   body{
@@ -261,10 +273,9 @@ body{
     flex-flow: row wrap;
 }
 .imagen2{
-    width: 12rem;
+    width: 10rem;
     margin: 5px;
-    padding-left: 5%;
-
+    padding: 4%;
 }
 .titulo1{
     text-align: center;
@@ -282,11 +293,13 @@ body{
  .box3{
     position: relative;
     width: 50%;
+    padding: 0.5%;
 
  }
  .titulo2{
     position: relative;
     text-align: center;
+    margin: 1.5%;
 } 
 .descripcion1{
     position: relative;
@@ -307,7 +320,8 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 85px;
-    padding: 5px 8%;
+    padding: 2%;
+    margin: 1%;
  }
  .header .logo img{
     height: 70px;
@@ -325,7 +339,7 @@ body{
  }
  .header .navlinks li{
     display: inline-block;
-    padding: 0 20px;
+    padding: 1.5%;
     transition: all 0.3s;
  }
  .header .navlinks li:hover{
@@ -390,9 +404,10 @@ body{
     margin: 4%;
  }
  .text4{
-    padding-left: 5%;
+    padding: 2%;
     text-align: center;
-    font-size: larger;
+    font-size: large;
+    margin-bottom: 2%;
  }
  .text5{
     font-size: large;
