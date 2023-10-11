@@ -201,8 +201,9 @@ body{
  }
  .header .navlinks li{
     display: inline-block;
-    padding: 0 10px;
+    padding: 1.5%;
     transition: all 0.3s;
+    text-align: center;
  }
  .header .navlinks li:hover{
     transform: scale(1.1);
@@ -305,7 +306,10 @@ body{
     position: relative;
     padding-left: 5%;
 
-}  
+} 
+.nav{
+   padding: 3%;
+} 
 }
 @media only screen and (min-width: 655px){
      body{
@@ -336,9 +340,10 @@ body{
  }
  .header .navlinks {
     list-style: none;
+    
  }
  .header .navlinks li{
-    display: inline-block;
+    display: inline-flex;
     padding: 1.5%;
     transition: all 0.3s;
  }
@@ -431,5 +436,9 @@ body{
  }
  .descripcion1{
     padding-left: 3%;
+ }
+ .nav{
+   width: 60%;
+   padding-left: 15%;
  }
 }
