@@ -16,7 +16,7 @@ body{
     background-color: rgb(81, 72, 18);
     opacity: 80%;
  }
-@media  only screen and (max-width:420px) {
+@media  only screen and (max-width:526px) {
     body{
         background:url(../Imagenes/fondo4.jpg);
         background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body{
         justify-content: space-between;
         align-items: center;
         height: 10%;
-        width: 110%;
+        width: 100%;
         padding: 5px .1%;
      }
      .header .logo img{
@@ -79,6 +79,7 @@ body{
         display: flex;
         flex-direction: column;
         margin: 2px;
+        align-items: center;
     }
     .box1{
         position: relative;
@@ -92,29 +93,32 @@ body{
     padding-left: 4%;
     padding-right: 3%; 
     }
+    .texto2{
+      width: 100%;
+      text-align: center;
+      font-size: larger;
+    }
     .box2{
         background-color: transparent;
         width: 50%;
         height: 10rem;
         padding: 1%;
         margin: 6%;
-        margin-left: 18%;
-        padding-left: 10%;    
+        margin-left: 2%;
+        padding-left: 1%;    
     }
     .text4{
         width: 130%;
         position: relative;
         padding-left: 5%;
         padding-right: 5%;
-        right: 13%;
         text-align: center;
-        margin-bottom: 10%;
-        
+        margin-bottom: 5%;
+        right: 3%;
     }
     .imagen1{
         position: relative;
-        width: 7rem;
-        left: 6%;
+        width: 9rem;
         padding: 3%;
         top: 1rem;
         text-align: center;
@@ -135,7 +139,7 @@ body{
     }  
     .footer{
         position: relative;
-        padding-left: 5%;
+        padding-left: 1%;
     }
     .contacto  {
         position: relative;
@@ -171,7 +175,7 @@ body{
         width: 100%;
     }
     }
-@media only screen and (min-width: 420px) and (max-width: 655px) {
+@media only screen and (min-width: 526px) and (max-width: 655px) {
   body{
     background: url(../Imagenes/fondo2.jpg);
     background-repeat: no-repeat;
@@ -246,11 +250,16 @@ body{
     position: relative;
     width: 11rem;
     margin-left: 20px;
-    padding-left: 2%;
+    padding-left: 1%;
     margin-top: 2%;
-    left: 5%;
+    left: 1%;
     
 }
+.texto2{
+   width: 100%;
+   text-align: center;
+   font-size: larger;
+ }
 .text4{
     position: relative;
     left: 5%;
@@ -386,8 +395,10 @@ body{
  .box2{
     position: relative;
     width: 35%;
-    padding-left: 6%;
+    padding-left: 10%;
+    padding-top: 1%;
     left: 7%;
+    align-items: center;
  }
  .box3{
     width: 100%;
@@ -407,9 +418,10 @@ body{
  .mapa1, .mapa2{
     display: none;
  } 
- .texto2{
-   
-    margin: 4%;
+.texto2{
+   width: 100%;
+   text-align: center;
+   font-size: larger;
  }
  .text4{
     padding: 2%;
