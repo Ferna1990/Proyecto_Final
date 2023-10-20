@@ -11,6 +11,7 @@ body{
     background-color: burlywood;
     }
  h1, h2, h3, h4, h5, p {
+   font-family: 'Roboto', sans-serif;
     color: rgb(236, 194, 54);
     background-color: rgb(81, 72, 18);
     opacity: 80%;
@@ -245,8 +246,9 @@ body{
     position: relative;
     width: 11rem;
     margin-left: 20px;
-    padding-left: 3%;
-    left: 6%;
+    padding-left: 2%;
+    margin-top: 2%;
+    left: 5%;
     
 }
 .text4{
@@ -371,7 +373,7 @@ body{
  }
  .cont3{
     display: flex;
-    }
+ }
  .box1{
     width: 30%;
     height: 4rem;
@@ -406,6 +408,7 @@ body{
     display: none;
  } 
  .texto2{
+   
     margin: 4%;
  }
  .text4{
