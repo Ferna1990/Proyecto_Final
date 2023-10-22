@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@formkit/vue": "^1.3.0-c4d1235",
     "vuelidate": "^0.7.7"
   }
 }
