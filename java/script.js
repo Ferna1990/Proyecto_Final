@@ -1,15 +1,10 @@
 
-const {createApp}=Vue
-const AppA1=createApp({
-data(){
-    return{
+import { createApp } from 'vue'
+import { plugin, defaultConfig } from '@formkit/vue'
+import App from 'App.vue'
 
-    }
-}
+createApp(App).use(plugin, defaultConfig).mount('#app')
 
-})
-
-Appa1.mount("#app1")
 
 
 
