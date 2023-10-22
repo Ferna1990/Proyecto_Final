@@ -1,11 +1,14 @@
 
-import { createApp } from 'vue'
-import { plugin, defaultConfig } from '@formkit/vue'
-import App from 'App.vue'
+import Vue from "vue";
+import app from './app.vue';
+import Vuelidate from "vuelidate";
 
-createApp(App).use(plugin, defaultConfig).mount('#app')
+Vue.use(Vuelidate);
 
-
+Vue.config.productionTip = false;
+new Vue({
+    render: h=> h(app),
+}).$mount('#app1')
 
 
 
