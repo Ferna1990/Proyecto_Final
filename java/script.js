@@ -1,6 +1,6 @@
 
 import Vue from "vue";
-import app from './app.vue';
+import app from "../Paginas/pagina5.html";
 import Vuelidate from "vuelidate";
 
 Vue.use(Vuelidate);
