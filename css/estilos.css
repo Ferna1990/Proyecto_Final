@@ -158,13 +158,13 @@ body{
         left: 5%;
     }   
     .titulo2{
-        width: 110%;
+        width: 100%;
         position: relative;
         margin-bottom: 6%;
         text-align: center;
     } 
     .descripcion1{ 
-        width: 110%;
+        width: 100%;
         position: relative;
         padding-left: 5%;
         margin-bottom: 6%;
@@ -442,6 +442,7 @@ body{
  .Ubicacion{
     position: relative;
     text-align: center;
+    width: fit-content;
  }
  .contacto{
     text-align: center;
