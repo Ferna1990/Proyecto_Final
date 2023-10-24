@@ -16,7 +16,8 @@ body{
     background-color: rgb(81, 72, 18);
     opacity: 80%;
  }
-@media  only screen and (max-width:526px) {
+@media  only screen and (max-width:520px) {
+  
     body{
         background:url(../Imagenes/fondo4.jpg);
         background-repeat: no-repeat;
@@ -100,17 +101,18 @@ body{
     }
     .box2{
         background-color: transparent;
-        width: 50%;
+        width: 59%;
         height: 10rem;
         padding: 1%;
-        margin: 6%;
+        margin: 5%;
         margin-left: 2%;
-        padding-left: 1%;    
+        padding-left: 1%;
+        align-items: center;    
     }
     .text4{
-        width: 130%;
+        width: 112%;
         position: relative;
-        padding-left: 5%;
+        padding-left: 2%;
         padding-right: 5%;
         text-align: center;
         margin-bottom: 5%;
@@ -121,7 +123,7 @@ body{
         width: 9rem;
         padding: 3%;
         top: 1rem;
-        text-align: center;
+        margin-left: 2%;
     }
     .mapa2, .mapa3{
         display: none;
@@ -175,7 +177,7 @@ body{
         width: 100%;
     }
     }
-@media only screen and (min-width: 526px) and (max-width: 655px) {
+@media only screen and (min-width: 520px) and (max-width: 655px) {
   body{
     background: url(../Imagenes/fondo2.jpg);
     background-repeat: no-repeat;
@@ -187,8 +189,9 @@ body{
     background-color: #FDDEA4;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
+    height: 100%;
     padding: 5px 1%;
+    width: 100%;
  }
  .header .logo img{
     height: 70px;
@@ -231,7 +234,7 @@ body{
 }
 .cont2{
 
-    width: 100%;
+    width: 105%;
     position: relative;
     right: 4%;
     margin-right: 5%;
@@ -320,6 +323,9 @@ body{
 } 
 .nav{
    padding: 3%;
+}
+.footer{
+   width: 90%;
 } 
 }
 @media only screen and (min-width: 655px){
@@ -428,6 +434,7 @@ body{
     text-align: center;
     font-size: large;
     margin-bottom: 2%;
+    width: 117%;
  }
  .text5{
     font-size: large;
