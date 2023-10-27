@@ -334,6 +334,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
  }   
  .header{
     display:flex;
@@ -424,6 +425,9 @@ body{
  .mapa1, .mapa2{
     display: none;
  } 
+.mapa3{
+   margin: 2%;
+}
 .texto2{
    width: 100%;
    text-align: center;
@@ -448,8 +452,8 @@ body{
  }
  .Ubicacion{
     position: relative;
-    text-align: center;
     width: fit-content;
+    
  }
  .contacto{
     text-align: center;
